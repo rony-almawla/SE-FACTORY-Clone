@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SE Factory Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div class="body">
+
+        <div class="firstSection">
+
+            <div class="leftSection">
+                <div class="seLogo">
+                    <img src="https://assets-global.website-files.com/63e3828f575098222357ad70/63e3c538627455556c58db15_Property%201%3Dlogo_text.svg" alt="SE Logo">
+                </div>
+
+                <div class="leftSectionChild">
+                    <h1 class="heroTitle">
+                        <span class="subheroTitle">Want to become a</span>
+                        <br>
+                        <span id="typed_text">Software Engineer</span>
+                        <span id="typed_cursor">_</span>
+                    </h1>
+                    <div class="hel">
+                    <p class="leftDescription">
+                        Jumpstart your journey in tech with our courses in Computer Science, Full-Stack Web development, 
+                        Data Engineering and UI/UX Design. 
+                        Get hands-on experience and gain essential skills for a successful tech career.
+                    </p>
+                </div>
+                    <button class="get-trained">#Get Trained</button>
+                </div>
+
+            </div>
+
+            <div class="rightSection">
+                <img src="./assets/img1.jpg" alt="Burger Icon" class="burger-icon">
+                <div class="rightSectionChild">
+                <h1 class="rightTitle">
+                    <span class="subH1">WANT TO HIRE</span>
+                    <br>
+                    "JOB-READY TECH TALENT?"
+                </h1>
+                <p class="rightDescription">
+                    Look no further than our comprehensive talent matching and placement services! 
+                    Our expert team will connect you with highly trained and skilled developers who
+                     are ready to hit the ground running and drive your success.
+                </p>
+
+                <button class="hire-talent">#HIRE TALENT</button>
+            </div>
+        </div>
+        </div>
+
+       
+        <div class="secondSection">
+
+
+            <div class="secondHeader">
+                <div class="childHeader">
+                    <div class="section-title-symbol">&gt;</div>
+                    <div class="secondSectiontitle">Hello World!</div>
+                    <div class="icons">
+                        <div class="circle-icon1"></div>
+                        <div class="circle-icon2"></div>
+                        <div class="circle-icon3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-container">
+                <div class="iframe">
+                <iframe src="https://www.youtube.com/embed/vG7SYQjODTs?si=i9SeokMM3NPXu0ua" frameborder="0" allowfullscreen class="videoSection"></iframe>
+              </div>
+            </div>
+        </div>
+   
+        <div class="thirdSection">
+
+            <div class="secondHeader">
+                <div class="childHeader">
+                    <div class="section-title-symbol">&gt;</div>
+                    <div class="secondSectiontitle">Milestones</div>
+                    <div class="icons">
+                        <div class="circle-icon1"></div>
+                        <div class="circle-icon2"></div>
+                        <div class="circle-icon3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="thirdBody">
+                <div class="leftSide">
+                    <div class="layOutChild">
+                        <div class="Rate">
+                            <div class="milestoneTitle">90%</div>
+                            <div class="milestonePercentage">employment success rate</div>
+                            <div class="text1">
+                                <p>
+                                    - Supported the employment of <strong>250+</strong>  youth
+                                    <br>
+                                    - <strong>50%</strong> working remotely from Lebanon
+                                    <br>
+                                    - Average salary today <strong>$1,300</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="rightSide">
+
+                        <div class="gridAbove">
+                            <div class="childLeftSide">
+                                <div class="milestone-title">1,000+</div>
+                                <div class="milestone-percentage">youth trained since 2016</div>
+                            </div>
+
+                            <div class="childRightSide">
+                                <div class="milestone-title2">10+</div>
+                                <div class="milestone-percentage2">hiring countries</div>
+                            </div>
+                            </div>
+                        
+
+                        <div class="gridBelow">
+
+                            <div class="childLeftsideBelow">
+                                <div class="milestone-title3">300+</div>
+                                <div class="milestone-percentage3">graduated Full-Stack<br>web developers</div>
+                                
+                            </div>
+
+                            <div class="childRightSideBelow">
+                                <div class="milestone-titlel4">220+</div>
+                                <div class="milestone-percentage4">global recruitment<br>partner companies </div>
+                                
+                            </div>
+                    </div>
+                </div>  
+                    
+                </div>
+            
+
+        </div>
+   
+        <div class="fourthSection">
+            <div class="thirdHeader">
+                <div class="childHeader">
+                    <div class="section-title-symbol">&gt;</div>
+                    <div class="secondSectiontitle">Programs</div>
+                    <div class="icons">
+                        <div class="circle-icon1"></div>
+                        <div class="circle-icon2"></div>
+                        <div class="circle-icon3"></div>
+                    </div>
+                </div>
+            </div>
+                <div class="w3-container">
+                
+                        <div class="w3-bar w3-black">
+                            <button class="w3-bar-item w3-button" onclick="openCourse('FCS')">FCS</button>
+                            <button class="w3-bar-item w3-button" onclick="openCourse('FSW')">FSW</button>
+                            <button class="w3-bar-item w3-button" onclick="openCourse('FSD')">FSD</button>
+                            <button class="w3-bar-item w3-button" onclick="openCourse('UIX')">UIX</button>
+                        </div>
+                        <div id="FCS" class="w3-container w3-display-container course" style="display:none; background-color: #f2f2f2; height: 300px; width: 600px;">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                            <h2>FCS: Foundations of Computer Science</h2>
+                            <p>This 9-week course covers fundamental topics in computer science, including data structures, algorithms, and foundational concepts. It is suitable for coding enthusiasts, former computer science students, and beginners who wish to learn Python programming, object-oriented programming, file systems, and more. The course includes online video materials, assignments, and instructor-led sessions.</p>
+                          
+                        </div>
+
+                    
+                        <div id="FSW" class="w3-container w3-display-container course" style="display:none; background-color: #e6f7ff; height: 300px; width: 600px;">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                            <h2>FSW: Full-Stack Web Development</h2>
+                            <p>Our 14-week bootcamp is designed to equip aspiring developers with the technical and interpersonal skills needed to become professional software engineers. Participants will learn essential concepts such as Version Control, Object-Oriented Programming, Database Management Systems, MVC Design Patterns, Dependency Management, modern Web Frameworks, and AWS. The program also includes a soft-skills curriculum covering Communication & Interpersonal Skills, Professional Writing, Technical Presentations, Negotiation, and Interviewing, which will be taught through lectures, weekly projects, tech talks, and a final project to showcase their learning.</p>
+                        </div>
+                    
+                        <div id="FSD" class="w3-container w3-display-container course" style="display:none; background-color: #ffe6e6; height: 300px; width: 600px;">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                            <h2>FSD: Full-Stack Data</h2>
+                            <p>SE Factory's 12-week Full-Stack Data course offers robust training in data analysis and engineering. Participants learn to handle large data sets with Python and use libraries like Pandas, NumPy, and Matplotlib for data manipulation and visualization. The course also delves into cloud orchestration, distributed computing, relational databases, and SQL basics. Hands-on projects provide real-world data analysis experience. Upon completion, students gain proficiency in Python for analytics, understand data warehousing, and can effectively visualize and present data insights.</p>
+                        </div>
+                    
+                        <div id="UIX" class="w3-container w3-display-container course" style="display:none; background-color: #f2e6ff; height: 300px; width: 600px;">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-large w3-display-topright">&times;</span>
+                            <h2>UIX: UI/UX Design Bootcamp</h2>
+                            <p>SE Factory's 6-week UI/UX course offers immersive learning in UI/UX design. It encompasses the essentials of UI/UX, from mastering Figma, color psychology, typography to UX heuristics, prototyping and WCAG guidelines. Learners work on projects, transforming wireframes into mockups, and creating responsive interfaces. The course culminates in a final project, enabling students to conduct a thorough UX audit, revamp a website, and create a well-documented case study. Graduates leave equipped with a polished portfolio and market-ready skills in UI/UX design.</p>
+                        </div>
+                </div>
+              
+    <div class="fifthSection">
+        <div class="childHeader">
+            <div class="section-title-symbol">&gt;</div>
+            <div class="secondSectiontitle" style="color: white;">Hire Talent </div>
+            <div class="icons">
+                <div class="circle-icon11"></div>
+                <div class="circle-icon22"></div>
+                <div class="circle-icon33"></div>
+            </div>
+        </div>
+
+        <div class="fifthBody">
+            <div class="align">
+           <div class="header5"> <h1 class="fifth">Become a Recruitment Partner</h1> </div> 
+           <div class="header6"> <strong style="color: green;">220+</strong>  companies from over <strong style="color: green;">10</strong> countries have joined our network since <strong style="color: green;">2016</strong</div>
+            <div class="lis1">
+                <ol class="list" style="color: white;">
+                    <li>Exclusive, direct, and streamlined access to our graduating cycles</li>
+                    <li>Candidate insights from instructors and personalized recommendations</li>
+                    <li>Interviews at will</li>
+                    <li>Tech talks participation and engagement with students opportunities&nbsp; </li>
+                </ol>
+                <p style="color: white;">Are you on the hunt for exceptional rising junior developers? Look no further than SE Factory!</p>
+            </div>  
+            <div class="contact">     
+            <a href="#contact" id="hire-contact-button" class="translucent-button-1 full-width w-button">Contact us &gt;</a>
+        </div> 
+        </div>
+        </div>
+    </div>
+     <div class="footer5">
+            <div class="miniFooter">
+                <div class="subsection-h1-title white"><span class="text-span">Want to launch a local team?</span></div>
+                <div class="subsection-h1-title white"><span class="text-span">check out</span></div>
+                <a href="http://hrfactory.io" target="_blank" class="w-inline-block"><img src="https://assets-global.website-files.com/63e3828f575098222357ad70/63e4e564253e4eaed97f68ed_Property%201%3Dlogo_text.svg" loading="lazy" alt="HR Factory full text logo" height="40" class="image-5"></a>
+            </div>
+        </div>
+
+    
+    </div>
+
+    <div class="sixthSection">
+
+
+
+        <div class="childHeader">
+            <div class="section-title-symbol">&gt;</div>
+            <div class="secondSectiontitle" style="color: black; font-family: sans-serif;">Testimonials</div>
+            <div class="icons">
+                <div class="circle-icon1"></div>
+                <div class="circle-icon2"></div>
+                <div class="circle-icon3"></div>
+            </div>
+        </div>
+
+
+        <div class="testimonials" id="testimonial1">
+
+            <div class="text" >
+                <img loading="lazy" src="https://assets-global.website-files.com/62434fa732124a0fb112aab4/62434fa732124a91e612aae8_quote-mark.svg" alt="" class="testimonial-quote-icon">
+                <div class="Des" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Growing up, I saw that every girl that had taken interest in anything technical or scientific had 
+                    been undermined and underestimated in her field. That isn't fair, breaking this stereotype is a must.
+                     The first step I took towards doing this was to join SEF, a bootcamp that supported diversity and inclusion.
+                </div>
+                
+                <div class="footerZeina">
+                    <img sizes="(max-width: 479px) 10vw, 50px," style="border-radius: 50px;" srcset="https://assets-global.website-files.com/63e3828f575098222357ad70/641ae9d82d5cbb30e5d9a9d7_Untitled%20design%20(8)-p-500.png 500w, https://assets-global.website-files.com/63e3828f575098222357ad70/641ae9d82d5cbb30e5d9a9d7_Untitled%20design%20(8)-p-800.png 800w, https://assets-global.website-files.com/63e3828f575098222357ad70/641ae9d82d5cbb30e5d9a9d7_Untitled%20design%20(8).png 1080w" src="https://assets-global.website-files.com/63e3828f575098222357ad70/641ae9d82d5cbb30e5d9a9d7_Untitled%20design%20(8).png" loading="lazy" alt="" class="testimonial-image" aria-hidden="true">
+                    <div class="div-block-2">
+                        <div class="testimonial-author-name"><span>Zeina</span> O.</div>
+                        <div class="text-block">&gt; SEF&nbsp;alumna working at <span class="green">Poyesis</span></div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="footerImg">
+                <img src="./assets/testimonialimg1.png" alt="Zeina Image" class="testimonialImg">
+            </div>
+        </div>
+
+
+
+        <div class="testimonials" id="testimonial2">
+            <div class="text" >
+                <img loading="lazy" src="https://assets-global.website-files.com/62434fa732124a0fb112aab4/62434fa732124a91e612aae8_quote-mark.svg" alt="" class="testimonial-quote-icon">
+                <div class="Des" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Looking back, I cannot believe that only a year ago, I knew almost nothing about programming,
+                     and now I am a professional software engineer working remotely for a startup located in Norway. 
+                     The boot camp was a life-changing experience for me.
+                </div>
+                
+                <div class="footerZeina">
+                    <img sizes="(max-width: 479px) 10vw, 50px" style="border-radius: 50px;" srcset="https://assets-global.website-files.com/63e3828f575098222357ad70/641ae721f027b6a3a4753ab2_1-p-500.png 500w, https://assets-global.website-files.com/63e3828f575098222357ad70/641ae721f027b6a3a4753ab2_1-p-800.png 800w, https://assets-global.website-files.com/63e3828f575098222357ad70/641ae721f027b6a3a4753ab2_1.png 1080w" src="https://assets-global.website-files.com/63e3828f575098222357ad70/641ae721f027b6a3a4753ab2_1.png" loading="lazy" alt="" class="testimonial-image">
+                    <div class="div-block-2">
+                        <div class="testimonial-author-name"><span class="green">Zakaria</span> T.</div>
+                       
+                        <div class="text-block">&gt; SEF&nbsp;alumnus working at<span class="green"><strong> Celsia</strong></span></div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="footerImg">
+                <img src="./assets/testimonialimg2.png" alt="Zeina Image" class="testimonialImg">
+            </div>
+        </div>
+
+        <div class="testimonials" id="testimonial3">
+            <div class="text" >
+                <img loading="lazy" src="https://assets-global.website-files.com/62434fa732124a0fb112aab4/62434fa732124a91e612aae8_quote-mark.svg" alt="" class="testimonial-quote-icon">
+                <div class="Des" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Hiring skilled engineers has never been easy. With SE Factory, 
+                    this became super easy and effective. Candidates are well-trained and we get to see 
+                    their strengths before hiring, which is perfect for a growing startup.
+                    
+                </div>
+                
+                <div class="footerZeina">
+                    <img sizes="(max-width: 479px) 10vw, 50px" style="border-radius: 50px;" srcset="https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress-p-500.jpeg 500w, https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress.jpeg 750w" src="https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress.jpeg" loading="lazy" alt="" class="testimonial-image">
+                    <div class="div-block-2" aria-hidden="true">
+                        <div class="testimonial-author-name" aria-hidden="true">
+                            <span class="green" aria-hidden="true">Rayan</span> Najdi</div>
+                            <div class="text-block" aria-hidden="true">&gt; Lebanon,<span class="green" aria-hidden="true"><strong aria-hidden="true"> Geek Express</strong></span>
+                            </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="footerImg">
+                <img src="./assets/testimonialsimg3.jpeg" alt="Zeina Image" class="testimonialImg">
+            </div>
+        </div>
+
+        <div class="testimonials" id="testimonial4">
+            <div class="text" >
+                <img loading="lazy" src="https://assets-global.website-files.com/62434fa732124a0fb112aab4/62434fa732124a91e612aae8_quote-mark.svg" alt="" class="testimonial-quote-icon">
+                <div class="Des" style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                    Hiring skilled engineers has never been easy. With SE Factory, 
+                    this became super easy and effective. Candidates are well-trained and we get to see 
+                    their strengths before hiring, which is perfect for a growing startup.
+                    
+                </div>
+                
+                <div class="footerZeina">
+                    <img sizes="(max-width: 479px) 10vw, 50px" style="border-radius: 50px;" srcset="https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress-p-500.jpeg 500w, https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress.jpeg 750w" src="https://assets-global.website-files.com/63e3828f575098222357ad70/6422c87dcb6d6083e9c17c55_Rayan-Najdi_GeekExpress.jpeg" loading="lazy" alt="" class="testimonial-image">
+                    <div class="div-block-2" aria-hidden="true">
+                        <div class="testimonial-author-name" aria-hidden="true">
+                            <span class="green" aria-hidden="true">Rayan</span> Najdi</div>
+                            <div class="text-block" aria-hidden="true">&gt; Lebanon,<span class="green" aria-hidden="true"><strong aria-hidden="true"> Geek Express</strong></span>
+                            </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="footerImg">
+                <img src="./assets/testimonialsimg4.jpeg" alt="Zeina Image" class="testimonialImg">
+            </div>
+        </div>
+
+        
+        <div class="div-container">
+            <div class="clickable-div" onclick="showTestimonial(1)"></div>
+            <div class="clickable-div" onclick="showTestimonial(2)"></div>
+            <div class="clickable-div" onclick="showTestimonial(3)"></div>
+            <div class="clickable-div" onclick="showTestimonial(4)"></div>
+        </div>
+
+
+
+
+        </div>
+
+
+        <div class="seventhSection">
+
+            <div class="childHeader">
+                <div class="section-title-symbol">&gt;</div>
+                <div class="secondSectiontitle" style="color: white;">FAQS </div>
+                <div class="icons">
+                    <div class="circle-icon11"></div>
+                    <div class="circle-icon22"></div>
+                    <div class="circle-icon33"></div>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <div class="dropbtn">What is the Difference Between the FSW Bootcamp &amp; the FCS Program?/div>
+                <div class="dropdown-content">
+                  <div>FCS covers the foundational concepts of programming. It’s a starting point for those new to 
+                    programming or a refresher for those who studied computer science before. Knowledge of the 
+                    concepts provided in FCS is required for FSW. It can also be taken ‘informally’ for free 
+                    if you do not plan to continue to FSW Bootcamp or you are unable to commit to the online 
+                    courses via Udemy: Free Computer Science Tutorial - Foundations of Computer Science: Theory and Practice.
+                    The FSW Bootcamp offers holistic training in web development (coding, designing, testing, and bug fixing). 
+                    It tackles advanced technical concepts and offers soft skills training that prepares you for the job market
+                    . FCS requires only a part-time commitment, and FSW requires a full-time commitment. Please note that both 
+                    are intensive and require your commitment and dedication.</div>
+                </div>
+              </div>
+                <div class="dropbtn">Where do I apply?/div>
+                <div class="dropdown-content">
+                  <div>Go to the Get Trained section of this website and select the appropriate program for you.</div>
+                </div>
+              </div>
+                <div class="dropbtn">What programs do you offer</div>
+                <div class="dropdown-content">
+                  <div>We currently offer four programs:
+                    <br>
+                    <ol>
+                        <li><Strong style="color: greenyellow;">FCS</Strong>: Foundations of Computer Science</li>
+                        <li><Strong style="color: greenyellow;">FSW</Strong>: Full Stack Web Development</li>
+                        <li><Strong style="color: greenyellow;">FSD:</Strong> Full Stack Data</li>
+                        <li><Strong style="color: greenyellow;">UIX</Strong>: UI/UX Design Bootcamp</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+
+
+        </div>
+
+
+        <div class="eigthSection">
+            <section class="newsletter">
+                <h2>Subscribe to our <span class="highlight">newsletter</span></h2>
+                <p>and stay up-to-date with our latest news.</p>
+                <form class="subscription-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">SUBSCRIBE</button>
+                </form>
+            </section>
+        
+
+            <footer>
+                <div class="footer-content">
+                    <div class="footer-links">
+                        <div><a href="#">Home</a></div>
+                        <div><a href="#">Hello world!</a></div>
+
+                    </div>
+                    <div class="footer-social">
+
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2023 SE Factory SAL. All rights reserved.</p>
+                    <a href="#">Privacy policy</a>
+                </div>
+            </footer>
+            
+        </div>
+    </div>
+
+
+    
+<script src="script.js"></script>
+</body>
+</html>
